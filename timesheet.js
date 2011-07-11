@@ -69,5 +69,5 @@ var runthis = function(){
 	d.nextDay();
 	$("#activities_0_items_13_item_date_string").val(d.teString());
 	$("#activities_0_items_14_item_date_string").val(d.teString());	
-
+  $("form").submit();
 };
